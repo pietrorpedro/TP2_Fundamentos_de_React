@@ -1,0 +1,37 @@
+.produtos8 {
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.produtos8 .images div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.produtos8 .images div img {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .produtos8 h1 {
+    text-align: center;
+  }
+
+  .produtos8 .images div {
+    justify-content: center;
+  }
+
+  .produtos8 .images div img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .produtos8 .images div {
+    flex-direction: column;
+  }
+}

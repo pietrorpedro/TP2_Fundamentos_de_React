@@ -1,3 +1,9 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -20,7 +26,7 @@ section {
 
 section div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   max-width: 1200px;
@@ -32,9 +38,9 @@ section div {
 }
 
 a {
-  margin: 0 10px; 
-  text-decoration: none; 
-  color: #007BFF; 
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
   font-weight: bold;
   padding: 8px 12px;
   border: 2px solid black;

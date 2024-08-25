@@ -3,3 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site8 main {
+  padding: 10px;
+}
+
+.main8 h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.main8 p {
+  font-size: 1.3rem;
+}

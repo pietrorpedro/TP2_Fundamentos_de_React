@@ -1,0 +1,12 @@
+.card5 {
+  max-width: 600px;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.card5 h1 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,14 @@
+.contato8 {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contato8 {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contato8 h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+}

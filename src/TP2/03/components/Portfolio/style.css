@@ -1,0 +1,38 @@
+.tp2_portfolio {
+  max-width: 1000px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.tp2_portfolio .imagens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tp2_portfolio .imagens img {
+  max-width: 250px;
+  border: 2px solid black;
+}
+
+.tp2_portfolio .conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.tp2_portfolio .conteudo .texto {
+  max-width: 50%;
+}
+.tp2_portfolio .conteudo .texto h1 {
+  margin-bottom: 50px;
+}
+
+.tp2_portfolio .conteudo .texto p {
+  margin-bottom: 10px;
+}
+
+.tp2_portfolio .conteudo img {
+  max-width: 400px;
+  border: 2px solid black;
+}

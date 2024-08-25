@@ -1,0 +1,50 @@
+.form4 {
+  max-width: 800px;
+  padding: 10px;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form4 h1 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.form4 .input {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+.form4 .input input,
+.form4 .input select,
+.form4 .input textarea {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.form4 .caracteristicas {
+  display: flex;
+  justify-content: space-between;
+}
+.form4 .caracteristicas .input {
+  width: 370px;
+}
+
+.form4 .btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.form4 .btn button {
+  padding: 10px 50px;
+  border-radius: 0;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

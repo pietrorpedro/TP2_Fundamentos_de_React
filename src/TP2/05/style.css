@@ -1,0 +1,12 @@
+.tp5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.tp5 h1 {
+  margin: 0 0 10px 0;
+}

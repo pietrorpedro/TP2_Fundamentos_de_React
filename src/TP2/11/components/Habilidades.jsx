@@ -1,0 +1,33 @@
+export default function Habilidades() {
+  return (
+    <section>
+      <h1>Habilidades</h1>
+      <div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png"
+          alt=""
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
+          alt=""
+        />
+        <img
+          src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+          alt=""
+        />
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png"
+          alt=""
+        />
+        <img
+          src="https://www.logotypes101.com/logos/203/272663FA02DE2DAA2BBAE2FC39F14783/php.png"
+          alt=""
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png"
+          alt=""
+        />
+      </div>
+    </section>
+  );
+}
